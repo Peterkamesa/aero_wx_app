@@ -1,0 +1,23 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model WeatherObservation {
+  id               String   @id @default(cuid())
+  observation_time DateTime
+  message_type     String   // e.g., 'METAR', 'SPECI', 'MANUAL'
+  raw_message      String?
+  air_temperature  Float?
+  dewpoint         Float?
+  wind_direction   Int?     // 0-360 degrees
+  wind_speed       Int?     // knots
+  qfe              Float?   // hPa
+  qnh              Float?   // hPa
+  created_at       DateTime @default(now())
+  updated_at       DateTime @updatedAt
+}
