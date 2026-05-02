@@ -4,13 +4,13 @@
 
 **Title:** *AeroWx – Building an Aviation Weather Dashboard with Next.js, Prisma & PostgreSQL*
 
-### What technology did you choose?
+### The technologies I choose to use
 - **Next.js (App Router)** – for full-stack React development  
 - **Prisma ORM** – for database interaction  
 - **PostgreSQL** – for storing weather observations  
 - **React (Client Components)** – for interactivity  
 
-### Why did you choose it?
+### Why I choose them?
 - Next.js allows **server + client integration** in one framework  
 - Prisma simplifies **database queries and schema management**  
 - PostgreSQL is reliable for **structured meteorological data**  
@@ -55,8 +55,8 @@ To build a **web-based aviation weather dashboard** that:
 
 ### Step 1: Clone the Repository
 
-git clone https://github.com/your-username/aerowx.git
-cd aerowx
+git clone https://github.com/Peterkamesa/aero_wx_app.git
+cd wx_app
 ### Step 2: Install Dependencies
 npm install
 
