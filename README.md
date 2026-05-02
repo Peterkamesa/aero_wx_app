@@ -56,6 +56,7 @@ To build a **web-based aviation weather dashboard** that:
 ### Step 1: Clone the Repository
 
 git clone https://github.com/Peterkamesa/aero_wx_app.git
+
 cd wx_app
 ### Step 2: Install Dependencies
 npm install
