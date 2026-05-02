@@ -69,6 +69,7 @@ DATABASE_URL="postgresql://USER:PASSWORD@localhost:5432/aerowx"
 
 ### Step 4: Setup Prisma
 npx prisma generate
+
 npx prisma migrate dev --name init
 
 ### Step 5: Run the Development Server
