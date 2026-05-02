@@ -102,7 +102,9 @@ export async function createObservation(formData: FormData) {
 
 ### Expected Output
 A new record is saved in the database
+
 Dashboard updates automatically
+
 Observation appears in the table/feed
 
 ### 7. Common Issues & Fixes
